@@ -1,0 +1,57 @@
+Some naming conventions for variables:
+
+1) The variable's name should give you some idea about what kind of value it contains. This makes it intuitive for you and your collaborators to understand what you created the variable for.
+
+Good examples of variables:
+customer_id = "05002"
+price = 23.55
+welcome_message = "Hi, welcome to this programme."
+status = False
+
+Bad examples of variables:
+john_smith = "Hi"
+abc = 545
+i_am_the_best = "Please type your customer ID here:"
+k = True
+
+2) Short variable names are best. This makes it easy to remember, and decreases the likelihood of mistyping it when you're using it again later.
+
+Good example:
+mean_value = 54.5
+
+Bad example:
+mean_of_price_and_cost_of_goods = 54.5
+
+3) Be consistent.
+- If you use one variable naming convention, stick with it. This makes it easier for you to remember, and it also makes it easier to debug or add on to the code you created.
+- This also means if your team has a naming convention for variables, stick with it and don't create your own to suit your fancy. Doing things your own way will make it difficult for your team members to read, debug, and add onto your code.
+
+Some different methods to name variables:
+
+i) Using underscores
+- Variables do not accept spaces, so we can use underscores to separate multiple words instead
+- Typically in this style, all the letters are lower case
+mean_value = 54.5
+new_customer_id = "0909"
+
+ii) Using humped lettering
+- This style means all words after the first will have their first letters capitalised.
+meanValue = 54.5
+newCustomerId = "0909"
+
+iii) All lower case, no underscores
+- Basically, lumping everything into one word. This is not generally preferred because it can be difficult to read.
+meanvalue = 54.5
+newcustomerid = "0909"
+
+4) Think before you act.
+- This is not exactly a convention, more like a general piece of advice for naming variables (or doing anything coding-related). Think about how your variable sounds to you, if it will be easy to re-use it later, and if it will make any sense to anyone but you. If you come back the next day and are having trouble understanding your own code and variables, something is probably very wrong.
+
+For a more technical and in-depth look at naming variables, read these articles:
+
+The art of naming variables 
+https://hackernoon.com/the-art-of-naming-variables-52f44de00aad
+
+Data Scientists: Your Variable Names Are Awful. Here’s How to Fix Them.
+https://towardsdatascience.com/data-scientists-your-variable-names-are-awful-heres-how-to-fix-them-89053d2855be
+
