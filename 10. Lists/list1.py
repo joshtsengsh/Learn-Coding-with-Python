@@ -10,6 +10,9 @@
 list_one = []
 print(list_one)
 
+#Show the type
+print(type(list_one))
+
 #Example 2: List with 1 string value
 list_two = ["apple"]
 print(list_two)
